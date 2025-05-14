@@ -585,6 +585,27 @@ input[type="date"] {
 }
 
 @media (max-width: 768px) {
+  nav {
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-link a {
+    padding: 10px 15px;
+    width: 100%; 
+  }
   .about-atas {
     flex-direction: column;
   }
@@ -610,3 +631,37 @@ input[type="date"] {
     flex-direction: column;
   }
 }
+@media (max-width: 480px) {
+  .about-atas {
+    flex-direction: column;
+  }
+  .about-bawah {
+    flex-direction: column;
+  }
+  nav button {
+    display: none;
+  }
+  .isi-atas {
+    flex-direction: column;
+  }
+  .isi-layanan {
+    width: 100%;
+  }
+  .isi-h {
+    flex-direction: column;
+  }
+  .pesan {
+    flex-direction: column;
+  }
+  .foto-test{
+    flex
+    .nav-logo {
+      font-size: 20px;}
+  
+    nav img {
+      width: 40px; 
+      height: 40px;
+    }-direction: column;
+  }
+}
+
